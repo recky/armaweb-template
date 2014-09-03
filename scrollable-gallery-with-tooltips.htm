@@ -1,0 +1,183 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all"/>
+    <link href="css/main.css" type="text/css" rel="stylesheet" media="all"/>
+       <script src="js/bootstrap.js" type="text/javascript"></script>
+
+	<link rel="stylesheet" type="text/css" href="scrollable-gallery-with-tooltips_files/standalone.css">
+	<script src="scrollable-gallery-with-tooltips_files/jquery.js"></script>
+	
+</head><body>
+
+<link rel="stylesheet" type="text/css" href="scrollable-gallery-with-tooltips_files/scrollable-horizontal.css">
+<link rel="stylesheet" type="text/css" href="scrollable-gallery-with-tooltips_files/scrollable-buttons.css">
+<link rel="stylesheet" type="text/css" href="scrollable-gallery-with-tooltips_files/overlay-basic.css">
+<link rel="stylesheet" type="text/css" href="scrollable-gallery-with-tooltips_files/overlay-gallery.css">
+
+<style>
+
+
+/*** override styling in external stylesheets ***/
+
+
+
+/* remove margins from the image */
+.items img {
+	margin:0;
+}
+
+/* make A tags our floating scrollable items */
+.items a {
+	display:block;
+	float:left;
+	margin:20px 15px;
+} 
+
+
+/* tooltip styling */
+#tooltip {
+	display:none;
+	background:url(scrollable-gallery-with-tooltips_files/black_arrow.png);
+	font-size:12px;
+	height:70px;
+	width:160px;
+	padding:25px;
+	color:#fff;
+}
+
+
+
+/* scrollable should not disable gallery navigation */
+#gallery .disabled {
+	visibility:visible !important;
+}
+
+#gallery .inactive {
+	visibility:hidden !important;
+}
+</style>
+
+<!-- "previous page" action -->
+<a class="prevPage browse left disabled"></a>
+
+<!-- root element for scrollable -->
+<div class="scrollable">
+
+	<!-- root element for the items -->
+	<div class="items">
+
+		<a class="" href="scrollable-gallery-with-tooltips_files/321464099_a7cfcb95cf.jpg" title="Back view">
+			<img src="scrollable-gallery-with-tooltips_files/321464099_a7cfcb95cf_t.jpg"></a>
+
+		<a class="" href="scrollable-gallery-with-tooltips_files/2765571978_43771e81eb.jpg" title="From south north">
+			<img src="scrollable-gallery-with-tooltips_files/2765571978_43771e81eb_t.jpg"></a>
+
+		<a class="" href="scrollable-gallery-with-tooltips_files/244441862_08ec9b6b49.jpg" title="View from the pool">
+			<img src="scrollable-gallery-with-tooltips_files/244441862_08ec9b6b49_t.jpg"></a>
+
+		<a class="" href="scrollable-gallery-with-tooltips_files/66523124_b468cf4978.jpg" title="Granite stones">
+			<img src="scrollable-gallery-with-tooltips_files/66523124_b468cf4978_t.jpg"></a>
+
+		<a class="" href="scrollable-gallery-with-tooltips_files/399223606_b875ddf797.jpg" title="The bronze statue">
+			<img src="scrollable-gallery-with-tooltips_files/399223606_b875ddf797_t.jpg"></a>
+
+		<a class="" href="scrollable-gallery-with-tooltips_files/1118933512_5ea1fe8f41.jpg" title="Marble walls">
+			<img src="scrollable-gallery-with-tooltips_files/1118933512_5ea1fe8f41_t.jpg"></a>
+
+		<a class="" href="scrollable-gallery-with-tooltips_files/321464104_c010dbf34c.jpg" title="Statue again">
+			<img src="scrollable-gallery-with-tooltips_files/321464104_c010dbf34c_t.jpg"></a>
+
+		<a class="" href="scrollable-gallery-with-tooltips_files/3445879840_7ca4b491e9.jpg" title="Monumental walls">
+			<img src="scrollable-gallery-with-tooltips_files/3445879840_7ca4b491e9_t.jpg"></a>
+
+		<a class="" href="scrollable-gallery-with-tooltips_files/399232237_6928a527c1.jpg" title="Water view">
+			<img src="scrollable-gallery-with-tooltips_files/399232237_6928a527c1_t.jpg"></a>
+
+		<a class="" href="scrollable-gallery-with-tooltips_files/117346182_1fded507fa.jpg" title="Famous chairs">
+			<img src="scrollable-gallery-with-tooltips_files/117346182_1fded507fa_t.jpg"></a>
+
+		<a class="" href="scrollable-gallery-with-tooltips_files/3323896446_3b87a8bf75.jpg" title="A lightning effect">
+			<img src="scrollable-gallery-with-tooltips_files/3323896446_3b87a8bf75_t.jpg"></a>
+
+		<a class="" href="scrollable-gallery-with-tooltips_files/3323897466_e61624f6de.jpg" title="Concrete corridors">
+			<img src="scrollable-gallery-with-tooltips_files/3323897466_e61624f6de_t.jpg"></a>
+
+		<a class="" href="scrollable-gallery-with-tooltips_files/3323058611_d35c894fab.jpg" title="Heavy red curtain">
+			<img src="scrollable-gallery-with-tooltips_files/3323058611_d35c894fab_t.jpg"></a>
+
+		<a class="" href="scrollable-gallery-with-tooltips_files/3323893254_3183671257.jpg" title="Large tropical trees">
+			<img src="scrollable-gallery-with-tooltips_files/3323893254_3183671257_t.jpg"></a>
+
+		<a class="" href="scrollable-gallery-with-tooltips_files/3323893148_8318838fbd.jpg" title="Lot's of tourists">
+			<img src="scrollable-gallery-with-tooltips_files/3323893148_8318838fbd_t.jpg"></a>
+
+	</div>
+
+</div>
+
+<div style="position: absolute; top: 59px; left: 606px; display: none;" id="tooltip">The bronze statue</div>
+
+
+<!-- "next page" action -->
+<a class="nextPage browse right"></a>
+
+<br clear="all">
+
+
+
+<!-- overlay element -->
+<div class="simple_overlay" id="gallery"><div class="close"></div>
+
+	<!-- "previous image" action -->
+	<a style="opacity: 0.8;" class="prev disabled">prev</a>
+
+	<!-- "next image" action -->
+	<a style="opacity: 0.8;" class="next">next</a>
+
+	<!-- image information -->
+	<div style="opacity: 0.8;" class="info"></div>
+
+	<!-- load indicator (animated gif) -->
+	<img class="progress" src="scrollable-gallery-with-tooltips_files/loading.gif">
+</div>
+
+<!-- javascript coding -->
+<script>
+
+
+$(document).ready(function() {
+/* chained call: scrollable().find("a").tooltip().overlay().gallery(); */
+
+$(".scrollable").scrollable().find("a").tooltip({
+
+	// use this single tooltip element for all trigger elements
+	tip: '#tooltip'
+
+
+}).overlay({
+
+	// each trigger uses the same overlay with id "gallery"
+	target: '#gallery',
+
+	// optional exposing effect with custom color
+	expose: '#111',
+
+	// clicking outside the overlay does not close it
+	closeOnClick: false
+
+// gallery plugin
+}).gallery({
+
+	// do not use the same disabled class name as scrollable
+	disabledClass: 'inactive'
+});
+});
+</script>
+
+
+
+
+
+
+</body></html>

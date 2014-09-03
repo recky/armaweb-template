@@ -1,0 +1,313 @@
+#logo{
+width: 25px;
+height: 25px;
+}
+#menu{
+    font-family: "comic sans ms";
+}
+#menu .brand{font-family: "copperplate gothic bold";}
+
+#all{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #000000;
+    border:0px solid pink;
+    overflow: hidden;
+    }
+#all #head{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border: 0px solid blue;
+    background: url(../img/header.png) 0 0 repeat;
+    overflow: hidden;
+    }
+#all #head #slide{
+    width:990px;
+    height: auto;
+    border :0px solid red;
+    background: #000000;
+   padding-top: 40px;
+    margin: auto;
+    overflow: hidden;
+}
+#all #head #shadown{
+    background: url(../img/shadown1.png) 00 no-repeat;
+    background-size: 1000px 54px;
+    width: 1000px;
+    height: 54px;
+    margin: auto;
+    margin-top: -10px;
+}
+#all #body{
+    background: url(../img/content.png) 00 repeat;
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+    box-shadow: 0px -5px 10px 2px #1a1a1a;
+}
+#all #body #content{
+    width: 970px;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    padding: 10px;
+    border: 0px solid blue;
+
+}
+#all #body #line{
+    background: url(../img/benang.png)00 repeat-x;
+    width: 100%;
+    height: 10px;
+    margin-top: 3px;
+}
+#all #body #content #welcome {
+    width: 950px;
+    height:auto;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    overflow:  hidden;
+    margin-bottom: 10px;
+    font-family: "comic sans ms";
+    font-size: 13pt;
+    word-wrap: break-word;
+   }
+
+#all #body #content #circle{
+    width: 490px;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid #000000;
+    margin: auto;
+   padding-right: 10px;
+}
+#all #body #content #circle a{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border: 0px solid #000000;
+    float: left;
+    margin: 10px;
+    margin-right: 0px;
+    border-radius: 100px;
+    text-align: center;
+    background: #e2e4e7;
+
+    /*-moz-box-shadow:0px 5px 4px 3px #333333;*/
+   /* -webkit-box-shadow: 0px 5px 0px 0px #333333;*/
+    box-shadow: 0px 5px 5px 2px #8b8b8b;
+    color: #000000;
+     }
+#all #body #content #circle #one,#three,#four{
+    width: 100px;
+    height: auto;
+    border: 0px solid #000000;
+    margin: auto;
+    margin-top:65px;
+    font-family: "comic sans ms";
+    font-weight: bold;
+   font-size: 16pt;
+    text-align: center;
+}
+#all #body #content #circle #four{
+    width: 100px;
+    height: auto;
+    border: 0px solid #000000;
+    margin: auto;
+    margin-top:60px;
+    font-family: "comic sans ms";
+    font-weight: bold;
+    font-size: 16pt;
+    text-align: center;
+}
+#all #body #content #circle a:hover{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border: 0px solid #000000;
+    float: left;
+    margin: 10px;
+    margin-right: 0px;
+    border-radius: 100px;
+    text-align: center;
+    background: #e2e4e7;
+    box-shadow: 0px 5px 5px 2px #8b8b8b;
+    color: #ffffff;
+    background: #000000;
+    background: -webkit-gradient(linear,center bottom,center top, from(#222222),to(#0088cc));
+    background: -moz-linear-gradient(bottom,#222222,#0088cc);
+    text-decoration: none;
+}
+#all #body #content #mycontent{
+    width: auto;
+    height: auto;
+   overflow: hidden;
+    margin: auto;
+    padding: 3px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    font-family: "comic sans ms";
+
+ }
+#all #body #content #mycontent .hwid{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    padding: 5px;
+       }
+#all #body #content #mycontent #about,#servis,#product{
+    width: 305px;
+    height: auto;
+    border: 0px solid #000000;
+    float: left;
+    margin: 5px;
+    padding: 2px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+#all #body #content #mycontent p{
+    width: 300px;
+    height: auto;
+    padding: 2px;
+    overflow: hidden;
+    word-wrap: break-word;
+    font-family: "comic sans ms";
+}
+#all #body #content #mycontent #about:hover,#servis:hover,#product:hover{
+    background: #cbcccd;
+    /*opacity: 0.2;
+    color: #000000;*/
+
+}
+#all #body #content #mycontent #about .hwid #ab,#ser,#pro{
+    width: 45px;
+    height: 43px;
+    float: left;
+    margin: 5px;
+}
+
+#all #body #content #mycontent #about .hwid #ab{
+    background: url(../img/about.png) 00 no-repeat;
+    background-size: 45px 43px;
+ }
+#all #body #content #mycontent #servis .hwid #ser{
+    background: url(../img/servis.png) 00 no-repeat;
+    background-size: 45px 43px;
+}
+#all #body #content #mycontent #product .hwid #pro{
+    background: url(../img/profil.png) 00 no-repeat;
+    background-size: 45px 43px;
+}
+.borderbottom{
+    background: url(../img/line.png)00 no-repeat;
+    background-size: auto auto;
+    width: auto;
+    height: 5px;
+    border: 0px solid red;
+   }
+#all #body #content #newproduct{
+    margin: auto;
+    width: 960px;
+    height: auto;
+    border: 0px solid red;
+    text-align: center;
+    font-family: "comic sans ms";
+    font-weight: bold;
+    overflow: hidden;
+    border: 0px solid #000000;
+    }
+#all #body #content #newproduct #minigal{
+    width: 960px;
+    height:auto;
+    margin: auto;
+    overflow:  hidden;
+    margin-bottom: 10px;
+    border-left: 0;
+      }
+#all #body #content #newproduct #minigal #isimini{
+    margin: auto;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+
+
+ }
+#all #footer{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border: 0px solid blue;
+    background: url(../img/header.png) 0 0 repeat;
+    overflow: hidden;
+    box-shadow: 0px -5px 10px 2px #8b8b8b;
+}
+#all #footer #footcontent{
+    width: 970px;
+    height: auto;
+    margin: auto;
+    border: 0px solid blue;
+    overflow: hidden;
+    padding: 5px;
+}
+#all #footer #linebottom{
+    background: url(../img/benang.png)00 repeat-x;
+    width: 100%;
+    height: 10px;
+    margin-top: 3px;
+}
+#all #footer #footcontent #news,#follow,#contact{
+    width: 230px;
+    height: auto;
+    margin: auto;
+    border: 0px solid blue;
+    overflow: hidden;
+    margin: 5px;
+    float: left;
+    font-family: "comic sans ms";
+    color: #ffffff;
+}
+#all #footer #footcontent .foothead{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+
+    font-weight: bold;
+    font-size: 14pt;
+    padding: 5px;
+    border-bottom: 0px solid #222222;
+    box-shadow: #8b8b8b 0px 0px 5px 0.5px;
+    margin-bottom: 10px;
+
+}
+#all #footer #footcontent #news ul{
+margin-left: 0px;
+    border: 0px solid red;
+}
+#all #footer #footcontent #news li{
+    border-bottom: 2px solid #222222;
+    box-shadow: #8b8b8b 1px 1px 1px 0.5px;
+    color: #0074cc;
+    overflow: hidden;
+
+  }
+#all #footer #copyright{
+    width: 970px;
+    height: auto;
+    margin: auto;
+    border: 0px solid blue;
+    overflow: hidden;
+    padding: 5px;
+    border-top: 1px solid #000000;
+
+}
+.backfollow{
+    background: #ffffff;
+    width: 55px;
+    height: 55px;
+    margin: 2px;
+    padding: 2px;
+}

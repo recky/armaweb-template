@@ -1,0 +1,65 @@
+#isi{
+    box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.3),
+    0px 20px 15px 0px rgba(0, 0, 0, 0.6);
+    float:left;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+#content #wrap{
+    font-family: "comic sans ms";
+    width: 74%;
+    height: auto;
+    background: #f5f5f5;
+    border: 0px solid #8b8b8b;
+    float: left;
+    word-wrap: break-word;
+    padding: 15px;
+}
+#content #wrap p{
+    word-wrap: break-word;
+    text-spacing: space-adjacent;
+
+}
+
+#content #wrap #judul{
+    font-size: 14pt;
+    padding: 5px;
+    font-weight: bold;
+
+}
+#content #posting{
+    background: #cbcccd;
+}
+#content #widget{
+    width: 22%;
+    height: auto;
+    background: #ffffff;
+    border: 0px solid #000000;
+    float: right;
+    overflow: hidden;
+    margin: auto;
+    padding: 2px;
+    font-family: "comic sans ms";
+}
+#content #widget .headwid{
+    width: 95%;
+    height: 20px;
+    background: #333333;
+    border: 0px solid #000000;
+    margin: auto;
+    margin-top: 5px;
+    color: #ffffff;
+     text-align: center;
+    font-weight: bold;
+}
+#content #widget .widcont{
+    width: 95%;
+    height: 100px;
+    background: #ffffff;
+    border: 0px solid #000000;
+    margin: auto;
+
+}
